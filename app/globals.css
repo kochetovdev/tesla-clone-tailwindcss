@@ -6,3 +6,18 @@
   margin: 0;
   padding: 0;
 }
+
+@layer components {
+  .background-model-3 {
+    @apply bg-[url('https://techstory.in/wp-content/uploads/2021/02/486595.jpg')] bg-center bg-cover h-screen;
+  }
+  .background-model-Y {
+    @apply bg-[url(https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2021/11/896/500/62b505b8-model-y.jpg?ve=1&tl=1)] bg-center bg-cover h-screen;
+  }
+  .background-accessories {
+    @apply bg-[url('/images/accessories.jpg')] bg-center bg-cover h-screen;
+  }
+  .link {
+    @apply cursor-pointer font-semibold
+  }
+}
